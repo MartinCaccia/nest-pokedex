@@ -41,6 +41,11 @@ $ npm i -g @nestjs/cli
 ```bash
 $ docker-compose up -d
 ```
+5. Initialize data with seed
+```bash
+$ Get http://localhost:3000/api/v2/seed
+```
+
 ## Used Stack
 * MongoDB
 * Nest
